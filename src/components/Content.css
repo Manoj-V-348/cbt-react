@@ -1,0 +1,107 @@
+.main {
+  width: 100%;
+  grid-area: Main;
+  padding: 20px 16px;
+}
+
+.searchbox--container {
+  display: grid;
+  grid-template-areas:
+    "Header"
+    "SearchBar";
+  grid-template-rows: auto 1fr;
+  gap: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.heading {
+  grid-area: Header;
+}
+.search--tools {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+/* SearchBar.css */
+.searchbox {
+  grid-area: SearchBar;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.searchbox-input {
+  font-family: "Inter", sans-serif;
+  flex: 1;
+  padding: 11px 17px 11px 11px;
+  border: none;
+  outline: none;
+  width: 350px;
+}
+
+.searchbox-button {
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.searchbox-button > img {
+  width: 18px;
+  height: 18px;
+  align-self: center;
+  justify-self: center;
+}
+.toggle--icon {
+  margin-left: 24px;
+}
+
+.filter--container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.filter--container > p {
+  font-size: 0.8rem;
+}
+.mild--text {
+  color: var(--gray2);
+}
+
+/* ToolBar css */
+
+.course--controls {
+  display: flex;
+  gap: 16px;
+  margin-left: 150px;
+  align-items: center;
+}
+.toolbar--button {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  width: 150px;
+  height: 38px;
+  padding: 5px 16px 5px 16px;
+  border: 1px solid var(--gray2);
+  border-radius: 5px;
+}
+.course--controls > .create--course {
+  width: 180px;
+  background-color: var(--mainColor);
+  color: white;
+}
+.hoverable--button:hover {
+  cursor: pointer;
+}
+
+/* Content Styles */
+
+.content--body {
+  margin-top: 30px;
+  width: 1100px;
+}

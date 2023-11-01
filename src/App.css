@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --mainColor: #0072b1;
+  --mainlighter: #ccedff;
+  --mainlighter2: #f5fbff;
+  --pending: #d92014;
+  --warning1: #ffd700;
+  --warning2: #f47920;
+  --success: #067a1d;
+  --gray1: #2d2f31;
+  --gray2: #71829b;
+  --gray3: #a5b0c0;
+  --gray4: #f0f0f0;
+}
+
+main {
+  width: 100%;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  display: grid;
+  grid-template-areas: "Sidebar Main";
+  grid-template-columns: 22% 78%;
+  grid-template-rows: 1fr;
+}

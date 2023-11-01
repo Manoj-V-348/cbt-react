@@ -1,0 +1,21 @@
+.actions--button {
+  padding: 10px 10px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.action--name {
+  font-size: 1rem;
+  align-self: center;
+  justify-self: center;
+  margin-left: 10px;
+}
+.icon--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.actions--button:hover {
+  background-color: var(--mainlighter);
+}

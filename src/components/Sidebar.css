@@ -1,0 +1,63 @@
+.header {
+  grid-area: Sidebar;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color: var(--mainlighter2);
+}
+
+.cbt--header {
+  height: 140px;
+}
+
+.larger {
+  font-size: 64px;
+  font-weight: 700;
+  color: var(--mainColor);
+}
+
+.profile--details {
+  display: flex;
+  gap: 10px;
+}
+
+.user--details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.changeuser--icon {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+  justify-self: center;
+}
+.user--details > p {
+  font-size: 0.8rem;
+  color: var(--gray2);
+}
+
+.bold {
+  font-weight: 700;
+}
+.user--details > .username {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: black;
+}
+
+.cbt--frame,
+.actions {
+  margin-bottom: 30px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.profile--details > img:hover {
+  cursor: pointer;
+}

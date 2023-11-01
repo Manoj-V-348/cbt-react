@@ -1,0 +1,84 @@
+.course--list--tile {
+  border-bottom: 1px solid var(--gray2);
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 180px 1fr 1fr 1fr 1fr;
+  padding-bottom: 19px;
+  padding-top: 19px;
+  font-family: "Inter", sans-serif;
+}
+.course--image--container {
+  display: flex;
+  align-items: center;
+  width: 180px;
+}
+.date--and--title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 210px;
+  padding-left: 5px;
+}
+.course--date {
+  font-size: 14px;
+  color: var(--gray2);
+}
+.category {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  gap: 10px;
+}
+.status {
+  font-size: 16px;
+  padding: 4px;
+  background-color: rgba(6, 122, 29, 0.16);
+  border-radius: 5px;
+  color: var(--success);
+  margin-bottom: 10px;
+}
+.admintracking {
+  font-size: 16px;
+}
+
+.enrolment,
+.actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.total,
+.completed,
+.Overdue {
+  display: flex;
+  justify-content: space-between;
+}
+.enrolment--heading {
+  font-size: 14px;
+  color: var(--gray2);
+  margin-right: auto;
+}
+.total,
+.completed,
+.Overdue {
+  align-items: center;
+  justify-content: start;
+}
+.course--action {
+  display: flex;
+  align-items: center;
+}
+.actions {
+  margin-left: 20px;
+  font-size: 14px;
+}
+.action--icon {
+  margin-right: 20px;
+}
+.hoverable--icon:hover {
+  cursor: pointer;
+}
+.edit--course {
+  color: var(--gray2);
+}
