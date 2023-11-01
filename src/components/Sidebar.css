@@ -61,3 +61,6 @@
 .profile--details > img:hover {
   cursor: pointer;
 }
+.header > .actions {
+  margin-left: 0px;
+}
